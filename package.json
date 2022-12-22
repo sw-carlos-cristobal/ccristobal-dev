@@ -1,0 +1,11 @@
+{
+  "name": "ccristobal-dev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sw-carlos-cristobal/ccristobal-dev",
+  "author": "Carlos Cristobal <87995947+sw-carlos-cristobal@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "^2.8.1"
+  }
+}

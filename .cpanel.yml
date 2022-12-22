@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH="/home/username/public_html"
+    - export DEPLOYPATH="/home/r0pbgirhttli/public_html"
     - export REPO="https://github.com/sw-carlos-cristobal/ccristobal-dev.git"
     - export BRANCH="main"
     - /bin/rm -rf ${DEPLOYPATH}
