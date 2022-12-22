@@ -1,6 +1,13 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/example/public_html/
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp style.css $DEPLOYPATH
+    - export DEPLOYPATH="/home/username/public_html"
+    - export REPO="https://github.com/sw-carlos-cristobal/ccristobal-dev.git"
+    - export BRANCH="main"
+    - /bin/rm -rf ${DEPLOYPATH}
+    - /bin/mkdir ${DEPLOYPATH}
+    - git clone ${REPO} ${DEPLOYPATH}
+    - cd ${DEPLOYPATH}
+    - git checkout ${BRANCH}
+    - yarn install --production
+    - yarn build
