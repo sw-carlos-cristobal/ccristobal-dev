@@ -1,0 +1,52 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build artifacts
+bin/
+build/
+lib/
+
+# Editor files
+.idea/
+*.iml
+
+# Temporary files
+*.tmp
+
+# Log files
+*.log
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Config files
+*.ini
+*.properties
+
+
+# Dotenv
+.env
+
+# Node modules
+node_modules/
